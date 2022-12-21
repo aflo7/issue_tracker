@@ -1,0 +1,133 @@
+body {
+  font-size: 16pt;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  padding: 5px;
+}
+
+li {
+  background-color: rgb(178, 178, 178);
+
+}
+
+#submit-btn {
+  margin-top: 15px;
+  cursor: pointer;
+  width: fit-content;
+  padding: 10px;
+  background-color: rgb(39, 89, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  font-size: 16pt;
+  padding: 5px;
+}
+
+select {
+  font-size: 16pt;
+  padding: 5px;
+
+}
+
+button {
+  font-size: 14pt;
+}
+
+#delete-btn {
+  background-color: rgb(255, 61, 61);
+  color: white;
+  /* margin: 10px; */
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: none;
+cursor: pointer;
+}
+
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+  background-color: rgb(178, 178, 178);
+  padding: 10px;
+}
+
+.add-new-issue-title {
+  text-align: left;
+  width: 100%;
+  font-size: 22pt;
+  margin-bottom: 5px;
+}
+
+.open-status {
+  background-color: rgb(148, 172, 255);
+  color: white;
+  width: fit-content;
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.close-btn {
+  /* display: none; */
+  background-color: rgb(255, 223, 15);
+  /* margin: 10px; */
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: none;
+cursor: pointer;
+
+}
+
+.issue-wrapper {
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+span {
+  /* font-size: 16pt; */
+}
+
+.material-symbols-outlined {
+  /* font-size: 16pt !important; */
+  /* margin-top: 5px; */
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.severity-user {
+  /* line-height: 60px; */
+  /* height: 60px; */
+  /* background-color: red; */
+  display: flex;
+  /* background-color: red; */
+  width: fit-content;
+
+}
+
+
+
+#account-circle {
+  margin-left: 10px;
+}
